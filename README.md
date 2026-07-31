@@ -8,7 +8,6 @@ o	Değişkenlerin açıklaması
 o	Özet İstatistikler
 o	Grafikler
 -	Klasik Modelin 
--	Veride Yatay Kesit Bağımlılığının ve Birim Kök Testleri
 -	Sabit Etkiler Modeli
 -	Logaritmik Dönüşüm 
 -	Birim Kök Testleri ve Modellerin Tekrar Kurulması
@@ -22,6 +21,7 @@ o	Model Kararı.
 -	Diagnostikler
 o	Wald Testi
 o	Wooldridge Testi
+-Veride Yatay Kesit Bağımlılığının ve Birim Kök Testleri
 o	Robust Tahminci Seçimi
 -	PARKS-KMENTA Robust Tahmincisi
 -	Modellerin Karşılaştırılması ve Sonuç
