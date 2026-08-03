@@ -1,5 +1,6 @@
 # Pennxrate-Datası-ile-Panel-veri-Analizi
 Pennxrate Datası Üzerinde Panel Veri Modellerinin Metodolojik Karşılaştırması
+Danışman/ Elif Tuna
 
 ### İÇİNDEKİLER ##
 -	Amaç
@@ -50,8 +51,11 @@ realxrate: Gerçek(reel, enflasyondan arındırılmış) Döviz Kuru.
  
 
 •	Stata’nın verdiği ‘strongly balanced’ ibaresiyle tüm ülkelerin aynı zaman dönemi boyunca hiçbir eksik veri olmadan izlendiğini gösterir.
+
 •	Analiz edilen dönem 1970 ile 2003 yılları arasını kapsamaktadır. Veri seti T=34 yıllık bir zaman serisi boyutuna sahiptir.
+
 •	T=34 literatürde ortak bir kanıya varılmamışsa da biz T<N  olduğu için veriyi kısa panel verisi olarak varsaydık ve analizimizi buna göre yaptık.(örneğin; yatay kesit bağımlılığı testinde pesaran testi kullanıldı.)
+
 •	Delta: 1 unit ifadesiyle verilerin yıllık bazda düzenli aktığını gösterir.
 
 
@@ -70,10 +74,16 @@ realxrate: Gerçek(reel, enflasyondan arındırılmış) Döviz Kuru.
 
 ## KAYNAKÇA ##
 Ders Notları,
+
 STATA,
+
 Veri Seti: http://www.stata-press.com/data/r15/pennxrate.dta
+
 Veri setine ulaşmak için use komutu ardından yukarıdaki linkin eklenmesi yeterlidir.
+
 Çalışmada Üretken Yapay Zekadan karar ve kontrol aşamalarında yardım alınmıştır.
+
 Çetin, M. K., Sekreter, M. S., & Mert, M. (2023). The effect of price and security on tourism demand: Panel quantile regression approach. Advances in Hospitality and Tourism Research (AHTR), 11(2), 256-276.
+
 Frankel, J. A., & Rose, A. K. (1996). A panel project on purchasing power parity: mean reversion within and between countries. Journal of international Economics, 40(1-2), 209-224.
 
